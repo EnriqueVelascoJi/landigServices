@@ -1,0 +1,297 @@
+/* Hasta 1200px */
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        margin-left: 10px;
+    }
+    .menu a {
+        width: 12%;
+    }
+    .button-principal {
+        width: 20%;
+    }
+    .title {
+        font-size: 40px;   
+    }
+
+    .acerca-de-nosotros-info {
+        width: 70%;
+    }
+    .equipo-trabajo {
+        width: 90%;
+        margin: 50px auto;
+    }
+    .planes {
+        justify-content: space-between;
+    }
+    .plan {
+        width: 45%;
+    }
+    .costo-titulo,
+    .costo-titulo2 {
+        font-size: 35px;
+    }
+}
+
+/* Hasta 992 */
+@media screen and (max-width: 992px) {
+    .menu {
+        display: none;
+    }
+    
+    .button-principal {
+        width: 25%;
+        justify-content: end;
+        margin-left: 45%;
+    }
+    .menu-navegacion .logo {
+        width: 30%;
+    }
+    .responsive-logo-menu {
+        margin-left: -7%;
+        display: block;
+    }
+    .responsive-logo-menu:hover {
+        cursor: pointer;
+    }
+    .landing-info {
+        width: 90%;
+    }
+    .general-description {
+        width: 100%;
+    }
+    .title {
+        font-size: 35px;   
+    }
+    .description {
+        font-size: 13px;
+    }
+    .subscription input {
+        width: 60%;
+        height: 40px;
+    }
+    .subscription button {
+        width: 35%;
+        height: 40px;
+    }
+    .feature h4{
+        font-size: 13px;
+    }
+    .feature p {
+        font-size: 10px;
+    }
+    .servicios-info {
+        width: 70%;
+    }
+    .servicios-img {
+        width: 70%;
+        margin: -100px auto 0;
+    }
+    .planes {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .plan {
+        width: 48%;
+    }
+    .costo-titulo,
+    .costo-titulo2 {
+        font-size: 30px;
+    }
+}
+
+/* Hasta 768 */
+@media screen and (max-width: 768px) {
+
+    .menu-responsive {
+        margin-bottom: -30px;
+        
+    }
+    .menu-responsive-oculto {
+        margin-bottom: 0px;
+    }
+    .menu-responsive a{
+        display: block;
+        text-decoration: none;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .button-principal {
+        width: 30%;
+        justify-content: end;
+        margin-left: 30%;
+    }
+    .menu-navegacion .logo {
+        width: 20%;
+    }
+    .responsive-logo-menu {
+        margin-left: -4%;
+    }
+    .feature {
+        width: 40%;
+    }
+    .features {
+        justify-content: space-evenly;
+    }
+    .feature p {
+        font-size: 9px;
+    }
+    .acerca-de-nosotros-info {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .acerca-de-nosotros-info h1 {
+        font-size: 25px;
+    }
+    .equipo-trabajo {
+        width: 90%;
+        margin: 50px auto;
+    }
+    .especialista {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .servicios-info {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .servicios-info h1 {
+        font-size: 25px;
+    }
+    .servicios-info .servicios-titulo {
+        font-size: 22px!important;
+    }
+    .servicios-info p {
+        font-size: 15px!important;
+    }
+    .ventaja p {
+        font-size: 12px!important;
+    }
+    
+    .servicios-img {
+        width: 85%;
+        margin: -130px auto -100px;
+    }
+    .servicios-img img {
+        width: 100%;
+    }
+    .ventajas {
+        width: 100;
+        margin-top: -50px;
+    }
+    .ventaja {
+        width: 42%;
+    }
+    .planes {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .plan {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .costo-titulo,
+    .costo-titulo2 {
+        font-size: 20px;
+    }
+    .costo-titulo2 {
+        margin-bottom: 50px;
+    }
+    .descripcion-empresa {
+        width: 60%;
+    }
+    .topics {
+        margin: 30px auto;
+    }
+}
+
+
+/* Hasta 576 */
+@media screen and (max-width: 576px) {
+    .menu-responsive {
+        margin: 60px 0 -70px;
+        
+    }
+    .menu-responsive-oculto {
+        margin-bottom: 0px;
+    }
+    #menu-navegacion {
+        width: 85%;
+        margin: 0 auto -100px;
+        
+    }
+    .button-principal {
+        display: none;
+    }
+    .menu-navegacion {
+        justify-content: space-between;
+    }
+    .menu-navegacion .logo {
+        width: 30%;
+    }
+    .logo {
+        width: 20%;
+    }
+    .landing-info {
+        margin-bottom: -100px;
+    }
+    .title {
+        font-size: 25px;   
+    }
+    .description {
+        font-size: 10px;
+    }
+    .subscription input,
+    .subscription button {
+        font-size: 10px;
+    }
+    .feature {
+        width: 60%!important;
+        margin-bottom: 30px;
+    }
+    .especialista {
+        margin-bottom: 1px;
+    }
+    .especialista-descripcion {
+        font-size: 13px;
+    }
+    .servicios-info {
+        width: 70%;
+    }
+    .servicios-img {
+        width: 70%;
+        height: 100%;
+        margin: 80px auto;
+    }
+    .ventajas {
+        width: 100%;
+        justify-content: center;
+    }
+    .ventaja {
+        width: 90%;
+        text-align: center;
+    }
+    .ventaja .logo { 
+        margin: 10px auto;
+    }
+    
+    .plan {
+        width: 100%;
+    }
+    
+    .descripcion-empresa {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .topic {
+        width: 49%;
+        margin: 0 auto;
+    }
+    .topics {
+        margin: 30px auto;
+    }
+}

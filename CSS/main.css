@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300;400&family=Titillium+Web:wght@300;400&display=swap');
+
+:root {
+    --font1: 'Montserrat', sans-serif;
+    --font2: 'Raleway', sans-serif;
+    --font3: 'Roboto', sans-serif;
+    --font4: 'Source Sans Pro', sans-serif;
+    --font5: 'Titillium Web', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: var(--font1);
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Estilos generales */
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.font1 {
+    font-family: var(--font5);
+    font-size: 15px;
+    padding: 15px 0;
+    color: #fff;
+}
+.font2 {
+    font-family: var(--font1);
+    font-size: 16px;
+    padding: 15px 0;
+    color: #fff;
+}
+.font3 {
+    font-family: var(--font5);
+    font-size: 15px;
+    padding: 15px 0;
+    color: #fff;
+}
+button:hover {
+    cursor: pointer;
+}
+a:hover {
+    font-weight: bold;
+    color: #EBB076!important;
+}
+.menu-responsive a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.responsive-logo-menu button {
+    background-color: transparent;
+    outline: none!important;
+    border: none;
+}
+
+
+/* Estilos del Header  */
+#Encabezado {
+    background-color: #043249;
+}
+
+#menu-navegacion {
+    width: 100%;
+}
+.menu-navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    width: 10%;
+    height: 100px;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    
+}
+.menu a {
+    text-decoration: none;
+    display: inline-block;
+    width: 10%;
+    color: white;
+    text-align: center;
+}
+.menu a:nth-child(1), 
+.menu a:nth-child(2) {
+    flex-grow: 0.2;
+}
+.button-principal {
+    width: 12%;
+}
+.button-principal button{
+    padding: 15px 15px;
+    color: azure;
+    background-color: #EBB076;
+    outline: none;
+    border: 1px solid #EBB076;
+}
+.responsive-logo-menu {
+    width: 8%;
+    display: none;
+    z-index: 2;
+}
+
+.landing-info {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.general-description {
+    width: 80%;
+    margin: 100px auto 150px;
+}
+.title {
+    font-size: 60px;
+    font-family: var(--font1);
+    color:#EBB076;
+}
+.subscription {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.subscription input {
+    width: 48%;
+    height: 60px;
+    padding: 15px 10px;
+    outline: none;
+    font-family: var(--font2);
+}
+.subscription button {
+    width: 48%;
+    height: 60px;
+    background-color: #EBB076;
+    outline: none;
+    border: none;
+    font-family: var(--font2);
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.feature {
+    width: 30%;
+    text-align: center;
+}
+
+.feature h4 {
+    width: 80%;
+    margin: 12px auto;
+    color: #EBB076;
+    font-size: 16px;
+
+}
+.feature p {
+    width: 80%;
+    margin: 0 auto;
+    color: azure;
+    font-size: 13px;
+}
+
+/*Estilos en el MAIN*/
+
+/*Acerca de nosotros*/
+#acerca-de-nosotros {
+    width: 100%;
+    background-color: #e3eef8;
+}
+.acerca-de-nosotros-position {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.acerca-de-nosotros-info {
+    width: 30%;
+}
+.acerca-de-nosotros-titulo {
+    text-align: start;
+    font-size: 22px;
+    color: #EBB076;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-family: var(--font2);
+}
+.acerca-de-nosotros-info h1 {
+    text-align: start;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: var(--font3);
+}
+.acerca-de-nosotros-info p:last-child {
+    font-size: 25px;
+    font-size: var(--font5);
+    line-height: 35px;
+}
+.equipo-trabajo {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.especialista {
+    width: 45%;
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.especialista-descripcion {
+    width: 90%;
+    margin: 10px auto 20px;
+    
+
+}
+.especialista-info {
+    width: 90%;
+    margin: 0 auto;
+}
+.especialista-img {
+    width: 20%;
+    height: 60px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    display: inline-block;
+}
+.especialista-datos {
+    width: 60%;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.especialista-nombre {
+    font-weight: 500;
+    color: #EBB076;
+}
+.puesto {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+/*Servicios*/
+.servicios-position {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.servicios-info {
+    width: 40%;
+}
+.servicios-img {
+    width: 40%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicios-titulo {
+    text-align: start;
+    font-size: 22px;
+    color: #EBB076;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-family: var(--font2);
+}
+.servicios-info h1 {
+    text-align: start;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: var(--font1);
+}
+.servicios-info p:nth-of-type(2) {
+    font-size: 18px;
+    font-family: var(--font2);
+    line-height: 35px;
+    margin-bottom: 70px;
+}
+.ventajas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ventaja {
+    width: 45%;
+    padding: 20px;
+    
+}
+
+.ventaja .logo {
+    background-color: #043249;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+.ventaja .logo * {
+    transition: all 1s ease;
+}
+.ventaja:hover .logo {
+    transform: scale(1.1);
+    
+}
+.ventaja:hover .logo * {
+    transform: rotateY(180deg);
+    
+}
+.ventaja .ventaja-titulo {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.ventaja p {
+    font-size: 14px;
+}
+
+/*Costo*/
+#costo {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.costo-position {
+    width: 100%;
+    padding-top: 100px;
+}
+.costo-titulo,
+.costo-titulo2 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.planes {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plan {
+    width: 35%;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+.plan-contenedor {
+    padding: 20px;
+    overflow: hidden;
+}
+.plan-tipo {
+    margin-bottom: 30px;
+}
+.plan-precio {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.plan-precio span {
+    font-size: 60px;
+}
+.plan-descripcion {
+    margin-bottom: 60px;
+}
+.beneficios {
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.beneficios * {
+    display: inline-block;
+    font-style: oblique;
+}
+.beneficios p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.plan-button {
+    width: 50%;
+    height: 50px;
+    outline: none!important;
+    border: none;
+    background-color: #258aff;
+    color: #fff;
+    font-family: var(--font2);
+    margin-bottom: 10px;
+}
+.plan-tarjeta {
+    font-size: 14px;
+}
+.basic .beneficio:last-of-type p,
+.basic .beneficio:nth-of-type(3) p{
+    text-decoration: line-through;
+}
+.plan-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.plan-tipo {
+    width: 10%;
+}
+.plan-legenda {
+    width: 25%;
+    height: 25px;
+    background-color: #4eab08;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro .plan-button {
+    background-color: #fc593b;
+}
+.basic {
+    background-color: #fff;
+    margin-right: -50px;
+}
+.pro {
+    background-color: #2b405a;
+    color: #fff;
+    margin-left: -50px;
+}
+.plan:hover {
+    transform: scale(1.1);
+}
+
+/**Fotter*/
+#pie-pagina {
+    background-color: #e3eef8;
+}
+.pie-pagina-position {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.descripcion-empresa {
+    width: 20%;
+
+}
+.descripcion-empresa img {
+    width: 25%;
+    margin-bottom: 30px;
+}
+.descripcion-empresa p {
+    line-height: 30px;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: 13px;
+    font-family: var(--font4);
+}
+.redes a:hover {
+    transform: scale(1.3);
+}
+.topics {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.topic {
+    width: 28%;
+}
+.topic .topic-header {
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.topic a {
+    display: block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-family: var(--font5);
+    transition: all 1s ease;
+}
+.topic a:hover {
+    transform: scale(1.1);
+}
